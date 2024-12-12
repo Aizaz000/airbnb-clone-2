@@ -17,21 +17,6 @@ This project is an Airbnb-inspired web application designed for managing and bro
 - **Node.js** (version 14 or higher)
 - **npm** (Node Package Manager)
 
-### Running the Frontend Server
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-2. Install the required dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the React development server:
-   ```bash
-   npm start
-   ```
-4. The frontend application will run on [http://localhost:3000](http://localhost:3000).
-
 ### Running the Backend Server
 1. Navigate to the backend directory:
    ```bash
@@ -47,8 +32,23 @@ This project is an Airbnb-inspired web application designed for managing and bro
    ```
 4. The backend server will run on [http://localhost:5000](http://localhost:5000).
 
+### Running the Frontend Server
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the React development server:
+   ```bash
+   npm start
+   ```
+4. The frontend application will run on [http://localhost:3000](http://localhost:3000).
+
 ### Note
-Ensure both servers are running simultaneously to enable proper interaction between the frontend and backend.
+Run backend server before running the frontend to enable proper interaction between the frontend and backend.
 
 ## Details About Routing and Navigation
 
